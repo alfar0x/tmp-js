@@ -1,5 +1,3 @@
-const update = () => {
-  
-};
+const update = () => {};
 
 update();
