@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node ./src/scripts/start.js",
     "initialize": "node ./src/scripts/initialize.js",
-    "update": "git reset --hard HEAD && git pull && npm install && node src/scripts/update.script.js"
+    "update": "git reset --hard HEAD && git pull && npm install && node src/scripts/update.js"
   },
   "devDependencies": {
     "@types/big.js": "^6.1.6",
