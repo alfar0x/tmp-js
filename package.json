@@ -6,8 +6,7 @@
   "license": "MIT",
   "scripts": {
     "start": "node ./src/scripts/start.js",
-    "initialize": "node ./src/scripts/initialize.js",
-    "update": "git reset --hard HEAD && git pull && npm install && node src/scripts/update.js"
+    "setup": "node ./src/scripts/setup.js"
   },
   "devDependencies": {
     "@types/big.js": "^6.1.6",
@@ -21,9 +20,7 @@
     "prettier": "^3.2.4"
   },
   "dependencies": {
-    "@alfar/helpers": "^0.0.20",
-    "big.js": "^6.2.1",
-    "lodash": "^4.17.21",
-    "zod": "^3.21.4"
+    "@alfar/helpers": "^0.0.43",
+    "big.js": "^6.2.1"
   }
 }
